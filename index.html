@@ -7,10 +7,26 @@
 </head>
 <body>
     <h1>Clase Git</h1>
+    <br>
+    <h3>Pasos para hacer un archivo en gib:</h3>
+    <p>
+        1- git init: primero se debo inicializar git por unica vez, abriendo una nueva terminal y escribo "git init". Antes de inicialzar debo tener abierta unicamente la carpeta en la que estoy trabajando, sino el git se aplicara a todas las carpetas mostrdas en visual studio.
 
+        2- git status: me permite ver el estado de los archivos, aparcen en rojo cuando no estan en staging area, si lo estan aparecen en color verde.
+
+        3- git add .= paso todos los archivos que tengo en el working directory al staging area, si quiero uno en particular coloco git add y el nombre del archivo.
+
+        4- git commit -m "comentario": los cambios deben ser comitiados, es mi copia de informacion. Se pasan los archivos al repositorio local.
+    </p>
+
+   
+        <h3>Registrar mis datos en git:</h3>
+        <p>
+        ● Proporcionar el email:
+        git config --global user.email "correodelusuario@dominio.com"
+        ● Proporcionar el nombre del propietario:
+        git config --global user.name "NombreDelUsuario"
+        ● Consultar los datos que tenemos registrados:
+        git config --global -e</p>
 </body>
 
-<!--primero se debo inicializar git por unica vez, abriendo una nueva terminal y escribo "git init"
-1- Antes de inicialzar debo tener abierta unicamente la carpeta en la que estoy trabajando, sino el git se aplicara a todas las carpetas mostrdas en visual studio.
-2- git add .= paso todos los archivos que tengo al station area, si quiero uno en particular coloco git add y el nombre del archivo.
--->
